@@ -1,0 +1,32 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <form onsumbmit="return false">
+      <p>
+        email:
+        <input type="text" id="t_email"
+          placeholder="hola@gmail.com" size="50"
+          onkeyup="check(this.value)">
+      </p>
+      <button id="b_submit" disabled onclick="alert('Cool!')">submit</button>
+    </form>
+  </body>
+  <script>
+
+
+    function check(value){
+      
+      if(value.match(/^[^@]+@[\w]+\.\w{3,}[\w\.]*$/i)){
+        document.getElementById("b_submit").disabled = false
+        document.getElementById('t_email').style.background = 'green';
+      }else{
+        document.getElementById('t_email').style.background = 'red';
+      }
+    }
+
+    function validate(){
+
+    }
+  </script>
+</html>
