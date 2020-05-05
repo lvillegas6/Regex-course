@@ -3,15 +3,16 @@ Este repositorio contiene los ejemplos que vimos en el curso de expresiones regu
 
 ## Apuntes generales
 clases
-\w - caracteres de palabras [a-zA-Z0-9_]
-\d - digitos [0-9]
-\s - espacios/invisibles en blancos
-\* greedy - todo <- Haya o no haya
-\+ uno o mas (debe de haber)
-? cero o uno (puede haber)
-[^] Anti Clase, marca el inverso de la clase. 
-^ marca el inicio de linea.
-$ marca final de linea.
+- \w - caracteres de palabras [a-zA-Z0-9_]
+- \d - digitos [0-9]
+- \s - espacios/invisibles en blancos
+- \* greedy - todo <- Haya o no haya
+-  \+ uno o mas (debe de haber)
+-  ? cero o uno (puede haber)
+-  [^] Anti Clase, marca el inverso de la clase. 
+-  ^ marca el inicio de linea.
+-  $ marca final de linea.
+
 
 ## Temario
 1. Qué es y para qué sirven las expresiones regulares, por ejemplo `/^([a-z\.\+]{4,30})@([a-z\.]+)\.([\w]{2,5})$/`
