@@ -24,6 +24,17 @@ clases
 1. Los delimitadores numéricos: `+`, `*`, `?`
 
 1. Los contadores `{1,4}`
+> {**Cota inferiror**,  **Cota superior**}
+> 
+> {de**X**,  hasta**Y**}
+> 
+> **Ejemplo:**
+> 
+> -   **\d{0,2}:**  esto hará match entre 0 y 2 dígitos
+> -   **\d{2,2}:**  Esto buscara 2 solo dígitos
+> -   **\d{2}:**  Esto buscara 2 solo dígitos
+> -   **\d{2,}:**  Esto buscara 2 o más dígitos.
+> -   **\d{2,4}:**  Esto buscara entre 2 y 4 dígitos.
 
 1. Las clases predefinidas `\w`, `\d`, `\s` …
 
